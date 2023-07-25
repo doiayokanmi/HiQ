@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
+import Services from "./Services";
 
 
 
@@ -28,7 +29,9 @@ const Hero = () => {
             <button>Subscribe</button>
           </div>
 
+        <Services />
         </div>
+
       </div>
     </>
   );
