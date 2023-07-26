@@ -23,7 +23,7 @@ nav .links a {
 }
 
 .sign {
-  @apply bg-primary p-2 rounded-sm text-white border-2 border-primary hover:bg-white hover:rounded-sm hover:text-primary
+  @apply bg-primary p-2 rounded text-white border border-primary hover:bg-white hover:text-primary
 }
 
 #hero {
