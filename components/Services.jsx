@@ -1,40 +1,44 @@
 import React from "react";
-import { icons } from "react-icons";
+import {FaLaptopCode, FaBug} from 'react-icons/fa'
+import {BiCodeAlt, BiSolidPencil} from 'react-icons/bi'
+
+
 
 const Services = () => {
   const serviceList = [
     {
-      title: "Adelododun",
+      title: "Web Developement",
       color: "bg-primary",
       para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eos!",
-      icon: "",
+      icon: <FaLaptopCode size={30} color='white' />,
     },
     {
-        title: "Adelododun",
+        title: "Technical Writing",
         color: "bg-primary",
         para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eos!",
-        icon: "",
+        icon: <BiSolidPencil size={30} color='white' />,
       },
       {
-        title: "Adelododun",
+        title: "Web Design",
         color: "bg-primary",
         para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eos!",
-        icon: "",
+        icon: <BiCodeAlt size={30} color='white' />,
       },
       {
-        title: "Adelododun",
+        title: "Bug Fixing",
         color: "bg-primary",
         para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eos!",
-        icon: "",
+        icon: <FaBug size={30} color='white' />,
       }
   ];
   return (
     <>
-      <div className="w-11/12 bg-transparent absolute px-24 rounded -bottom-36">
-        <div className="flex justify-between p-8 gap-5">
+      <div className="w-full bg-transparent absolute px-24 rounded -bottom-48">
+        <div className="flex justify-between p-4 gap-5">
           {serviceList.map((item, index) => (
-            <div key={index} className="w-1/4 rounded p-4 text-center bg-white text-primary hover:bg-primary hover:text-white hover:shadow-none shadow shadow-slate-400">
-            <h1 className="text-">{item.title}</h1>
+            <div key={index} className="serviceList">
+            <p className="bg-primary inline-block p-2 rounded mb-2">{item.icon}</p>
+            <h1 className="text-xl font-bold uppercase">{item.title}</h1>
             <hr />
               <p>
                 {item.para}

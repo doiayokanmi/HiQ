@@ -35,3 +35,7 @@ nav .links a {
   background-color: rgba(0, 0, 0, 0.7);
   @apply w-full h-full flex justify-center absolute items-center flex-col pt-12 px-36 gap-9 text-center
 }
+
+.serviceList {
+  @apply w-1/4 rounded p-4 text-center bg-white text-primary hover:bg-primary hover:text-white hover:shadow-none shadow shadow-slate-400
+}
