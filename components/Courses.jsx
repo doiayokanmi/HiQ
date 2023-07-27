@@ -36,8 +36,8 @@ const Courses = () => {
             </h1>
           </div>
           <div className="flex gap-3 w-full mt-4 md:mt-0 md:w-auto">
-            <button className="sign">Recent </button>
-            <button className="sign">Popular </button>
+            <button className="sign mr-3">Recent </button>
+            <button className="sign mr-3">Popular </button>
             <button className="sign">Popular </button>
           </div>
         </div>
@@ -48,7 +48,7 @@ const Courses = () => {
           {
             courses.map((item, index) => (
 
-          <div key={index} className="md:basis-1/3 basis-full border rounded">
+          <div key={index} className="md:basis-1/3 my-3 basis-full border rounded">
             <div>
               <Image
                 src={"/bg.jpg"}
