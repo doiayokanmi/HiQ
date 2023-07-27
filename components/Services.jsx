@@ -33,8 +33,8 @@ const Services = () => {
   ];
   return (
     <>
-      <div className="w-full bg-transparent absolute px-24 rounded -bottom-36">
-        <div className="flex justify-between gap-5">
+      <div className="w-full bg-transparent p-4 md:px-24 rounded">
+        <div className="flex justify-between gap-4 lg:flex-nowrap flex-wrap">
           {serviceList.map((item, index) => (
             <div key={index} className="serviceList">
             <p className="bg-primary inline-block p-2 rounded mb-2">{item.icon}</p>

@@ -11,7 +11,7 @@ const Navigation = () => {
             <Image src={'/hiq_logo-removebg-preview.png'} alt="HiQ Logo" width={60} height={20} />
         </div>
 
-        <div className="links hidden md:block max-lg:block lg:block">
+        <div className="links absolute md:static md:inline-block overflow-hidden">
           <Link href="">
             Home
           </Link>
