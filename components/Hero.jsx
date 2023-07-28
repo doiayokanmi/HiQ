@@ -1,11 +1,4 @@
-'use client'
-
-import { motion } from "framer-motion";
-import Link from "next/link";
 import React from "react";
-import Services from "./Services";
-
-
 
 const Hero = () => {
   return (
@@ -15,7 +8,7 @@ const Hero = () => {
           id="innerHero"
         >
           <h1 className="text-4xl md:text-6xl uppercase">HiQ Technology</h1>
-          <p className="md:text-xl">
+          <p className="md:text-xl my-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ab
             commodi doloremque rem iure veniam aliquam consequuntur reiciendis,
             temporibus maiores corporis, sapiente quasi tenetur eaque tempora
@@ -31,7 +24,6 @@ const Hero = () => {
         </div>
 
       </div>
-        <Services />
     </>
   );
 };
