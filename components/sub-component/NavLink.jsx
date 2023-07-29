@@ -26,7 +26,7 @@ const NavLink = ({ isMenu }) => {
   ];
   return (
     <>
-      <div className={`links`}>
+      <div className={isMenu ? 'links' : 'links h-0'}>
         {
           links.map((items, index) => (
           <Link key={index} href={items.link} className='p-4 w-full border-b-2 border-b-primary'>
