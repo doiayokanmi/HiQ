@@ -18,8 +18,12 @@ nav span {
   @apply text-primary font-semibold
 }
 
+.links {
+  @apply absolute flex flex-col top-[72px] w-full md:w-auto inset-x-0 bg-white md:static md:inline-block overflow-hidden
+}
+
 nav .links a {
-  @apply mx-8 font-medium hover:text-primary
+  @apply md:mx-4 font-medium hover:text-primary
 }
 
 .sign {

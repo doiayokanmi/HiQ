@@ -34,7 +34,7 @@ const Services = () => {
   return (
     <>
       <div className="w-full bg-transparent p-4 md:px-24 rounded">
-        <div className="flex justify-between gap-4 lg:flex-nowrap flex-wrap">
+        <div className="flex justify-between gap-4 sm:flex-nowrap flex-wrap">
           {serviceList.map((item, index) => (
             <div key={index} className="serviceList my-4">
             <p className="bg-primary inline-block p-2 rounded mb-2">{item.icon}</p>
